@@ -1,0 +1,87 @@
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: midnightblue;
+  text-align: center;
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+.home{
+  display: flex;
+  width: 100px;
+   text-align: center;
+   border:0px solid white; 
+   font-family: Arial;
+   padding:10px; 
+   margin-right: 3px;
+   margin-top: 60px;
+ 
+
+}
+.home-button{
+  background-color: silver;
+font-weight: bold;
+color: black;
+border:none;
+  border-radius: 2px;
+  cursor: pointer;
+  padding:10px;
+
+}
+
+.container{
+  align-items: center;
+  background-color: skyblue;
+  margin-left: 500px;
+width: 600px;
+padding:20px;
+margin-bottom: 30px;
+}
+
+form {
+  height: auto;
+  display: grid;
+  grid-gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 95%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 30%;
+  padding: 10px;
+  background-color:white;
+  color:black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color:green;
+}
+.footer{
+  background-color: black;
+  color:azure;
+  padding:10px 20px;
+  text-align: center;
+}

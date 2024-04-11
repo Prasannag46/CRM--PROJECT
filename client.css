@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}  
+
+.header {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  right: 0;
+  color: midnightblue;
+  text-align: center;
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+.home{
+       display: flex;
+          width: 100px;
+        text-align: center;
+        border:0px solid white; 
+        font-family: Arial;
+        padding:10px; 
+        margin-right: 3px;
+        margin-top: 60px;
+      
+
+}
+button{
+  font-weight: bold;
+    color: black;
+    border:none;
+    border-radius: 2px;
+    cursor: pointer;
+   
+    padding:10px;
+  
+}
+
+
+.profile-links{
+  position:relative;
+}
+.profile-options{
+  display:none;
+  position:absolute;
+  top:100%;
+  right:0;
+  color:black;
+  background-color:white;
+  border:1px solid #ccc;
+  border-radius: 0px;
+  padding:20px;
+   width: 200px;
+
+}
+.profile-links:hover.profile-options{
+  display:contents;
+  width: auto;
+  
+}
+
+
+.container {
+  padding-top: 1px;
+  display: flex;
+  height:auto;
+  margin-bottom: 1px;
+}
+.container button{
+  display:block;
+  width:100%;
+  padding:10px;
+  margin-bottom:5px;
+  border:none;
+  background-color :white;
+  cursor: pointer;
+  text-align: center;
+}
+.container  button:hover{
+  background-color:grey;
+}
+
+aside {
+  height: auto;
+  width: 250px;
+  background-color:silver;
+  padding: 20px;
+  height:250vh;
+  margin-bottom: 10px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  grid-gap: 20px;
+  flex-grow: 2;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+
+}
+
+.footer{
+  background-color: black;
+  color:azure;
+  padding:10px 20px;
+  text-align: center;
+}

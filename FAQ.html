@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ - Beauty CRM</title>
+<link rel="stylesheet" href="FAQ.css">
+</head>
+<body>
+<div class="header">
+<h1>Frequently Asked Questions</h1>
+</div>
+<div class="home">
+    <button class ="home"onclick="goToHomePage()">Home</button> 
+      </div>
+      <marquee behavior="scroll" direction="right" scrollamount="10">
+<h2> Have questions?<br>
+Here you'll find the answers most valued by our partners!!</marquee></h2>
+<img src="FAQ.jpeg" width="300"></div>
+    
+<div class="faq" onclick="toggleAnswer(this)">
+  <h3>1. How do I place an order?</h3>
+  <p class="answer ">To place an order, simply browse our products, select the items you want, and proceed to checkout.</p>
+</div>
+
+<div class="faq" onclick="toggleAnswer(this)">
+  <h3>2. Can I cancel my order?</h3>
+  <p class="answer ">Yes, you can cancel your order within 24 hours of placing it. Contact our customer support for assistance.</p>
+</div>
+
+<div class="faq" onclick="toggleAnswer(this)">
+  <h3>3. What payment methods do you accept?</h3>
+  <p class="answer ">We accept Visa, MasterCard, American Express, and PayPal.</p>
+</div>
+
+<div class="faq" onclick="toggleAnswer(this)">
+  <h3>4. How can I track my order?</h3>
+  <p class="answer ">Once your order is shipped, you will receive a tracking number via email. You can use this number to track your order on our website.</p>
+</div>
+
+<div class="faq" onclick="toggleAnswer(this)">
+  <h3>5. Do you offer international shipping?</h3>
+  <p class="answer ">Yes, we offer international shipping to select countries. Shipping fees and delivery times may vary.</p>
+</div>
+
+<div class="faq" onclick="toggleAnswer(this)">
+  <h3>6. What is your return policy?</h3>
+  <p class="answer ">We offer a 30-day return policy for unused and unopened items. Please refer to our Returns page for more information.</p>
+</div>
+
+<div class="faq" onclick="toggleAnswer(this)">
+  <h3>7. How can I contact customer support?</h3>
+  <p class="answer">You can contact our customer support team via email at fashionhub@gmail.com or by phone at +91123456789 .</p>
+</div>
+
+<div class="faq" onclick="toggleAnswer(this)">
+  <h3>8. Are your products cruelty-free?</h3>
+  <p class="answer">Yes, all of our products are cruelty-free and not tested on animals.</p>
+</div>
+
+<div class="faq" onclick="toggleAnswer(this)">
+  <h3>9. Can I change or update my shipping address?</h3>
+  <p class="answer ">If your order has not been shipped yet, you can contact us to update your shipping address. Once the order is shipped, we cannot change the address.</p>
+</div>
+
+<div class="faq" onclick="toggleAnswer(this)">
+  <h3>10. Do you offer gift wrapping?</h3>
+  <p class="answer">Yes, we offer gift wrapping services for an additional fee. You can select this option during checkout.</p>
+</div>
+<script>
+    
+function goToHomePage() {
+  
+  window.location.href = "client.html"; 
+
+}
+function toggleAnswer(faqItem) {
+  var answer = faqItem.querySelector('.answer');
+  answer.classList.toggle('visible');
+}
+</script>
+<footer class="footer">
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+      Contact us:+91123456789 | Email-id:fashionhub@gmail.com |@2024 Fashion Hub.All Rights reserved.
+    </marquee>
+  </footer>
+</body>
+</html>

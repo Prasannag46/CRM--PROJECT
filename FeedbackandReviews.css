@@ -1,0 +1,42 @@
+
+.header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    color: midnightblue;
+    text-align: center;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .home{
+    display: flex;
+       width: 100px;
+     text-align: center;
+     border:0px solid white; 
+     font-family: Arial;
+     padding:10px; 
+     margin-right: 3px;
+     margin-top: 60px;
+   
+
+}
+button{
+font-weight: bold;
+ color: black;
+ border:none;
+ border-radius: 2px;
+ cursor: pointer;
+
+ padding:10px;
+
+}
+  .footer{
+    background-color: black;
+    color:azure;
+    padding:10px 20px;
+    text-align: center;
+  }

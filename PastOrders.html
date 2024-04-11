@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Past Orders - Beauty CRM</title>
+<link rel="stylesheet" href="PastOrders.css">
+</head>
+<body>
+<div class="header">
+    <h2>Past Orders</h2>
+    <button class="home" onclick="goToHomePage()">Home</button>
+</div>
+
+<div class="container">
+    <!-- Dynamically populate past orders data here -->
+    <div class="product">
+        <img src="product_1.jpeg" alt="Product 1">
+        <h3>Order ID:2029<br>Products:Lorel Paris Lipstick shades</h3>
+        <p>No.of products:2 sets
+        <p>Price: $100</p>
+        <p> status:Delivered</p>
+    </div>
+    <div class="product">
+        <img src="product_6.jpeg" alt="Product 6">
+        <h3>Order ID:20239<br>Products:Himalaya Alovera Face wash</h3>
+        <p>No.of products:1
+        <p>Price: $100</p>
+        <p> status:Delivered</p>
+    </div>
+    <div class="product">
+        <img src="product_8.jpeg",alt="Product 8" width="400">
+        <img src="product_2.jpeg",alt="product 2"width="400">
+        <h3>Order ID:2029<br>Products:<ul><li>"Lakme Eye liner"</li>
+            <li>"Dot sunscreen"</li>
+        </ul></h3>
+        <p>No.of products:2 sets
+        <p>Price: $500</p>
+        <p> status:Delivered</p>
+    </div>   
+    
+</div>
+<script>
+    function goToHomePage() {
+  
+  window.location.href = "client.html"; 
+}
+</script>
+<footer class="footer">
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+      Contact us:+91123456789 | Email-id:fashionhub@gmail.com |@2024 Fashion Hub.All Rights reserved.
+    </marquee>
+  </footer>
+</body>
+</html>

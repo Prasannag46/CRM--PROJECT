@@ -127,7 +127,8 @@ function openDetailsPage(title, promptMessage,isRegistration) {
 
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password" required>
-                   
+                    
+            
                     ${isRegistration ? `
                         <label for="firstName">First Name:</label>
                         <input type="text" id="firstName" name="firstName" required>
@@ -140,8 +141,8 @@ function openDetailsPage(title, promptMessage,isRegistration) {
 
 
                     <button type="button" onclick="submitDetails()">Submit</button>
-                    <div class="link" onclick="openLogin()">Back to Login</div>
-                    <div class="link" onclick="showForgotPassword()">Forgot Password</div>
+                    <div class="link" onclick="showCompanyLogin()">Back to Login</div>
+                    <div class="link" onclick="showCompanyForgotPassword()">Forgot Password</div>
                 </form>
                 
             </body>
@@ -164,5 +165,6 @@ function openDetailsPage(title, promptMessage,isRegistration) {
     function openLogin() {
         detailsWindow.close();
         showClientLogin(); 
+        showCompanyLogin();
     }
 }

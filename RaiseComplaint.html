@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raise Complaint - Beauty CRM</title>
+<link rel="stylesheet" href="RaiseComplaint.css">
+</head>
+<body>
+<div class="header">
+  <h2>Raise Complaint</h2>
+  </div>
+  <div class="home">
+    <button class ="home"onclick="goToHomePage()">Home</button> 
+      </div>
+    
+   <div class="container" >
+  <form id="complaintForm">
+    <label for="complaintId">Complaint ID:</label><br>
+    <input type="text" id="complaintId" name="complaintId" required><br>
+    <label for="dateRaised">Date Raised:</label><br>
+    <input type="date" id="dateRaised" name="dateRaised" required><br>
+    <label for="issue">Issue:</label><br>
+    <input type="text" id="issue" name="issue" required><br>
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description" required></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</div>
+<script src="RaiseComplaint.js">
+  
+</script>
+<footer class="footer">
+  <marquee behavior="scroll" direction="left" scrollamount="5">
+    Contact us:+91123456789 | Email-id:fashionhub@gmail.com |@2024 Fashion Hub.All Rights reserved.
+  </marquee>
+</footer>
+</body>
+</html>
