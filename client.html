@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client Module - Beauty CRM</title>
+<link rel="stylesheet" href="client.css">
+</head>
+<body>
+
+  
+  <div class="header">
+    <h1>Welcome, [Client Name]</h1>
+    <div class="profile-links">
+      <button onclick="toggleProfileOptions()">My Profile</button>
+        <class id="profileOptions" class="profile-options">
+          <a href="#"onclick="showUserProfile()">My Profile</a><br>
+           <a href="#">Change Password</a><br>
+           <a href="login.html">Logout</a>
+        
+        </div>
+</div>
+<div class="home">
+<button class ="home"onclick="goToHomePage()">Home</button> 
+  </div>
+
+
+
+<div class="container">
+  <aside>
+    <h2>Dashboard</h2>
+    
+      <button onclick="showPastOrders()">Past Orders</button><br>
+      <button onclick="showProductStatus()">Product status</button><br>
+      <button onclick="showRaiseComplaint()">Raise complaint</button><br>
+      <button onclick="showComplaintAnswers()">Complaint Answer</button><br>
+      <button onclick="showFAQ()">FAQ</button><br>
+      <button onclick="showFeedbackandReviews()">Feedback and Reviews</button><br>
+    
+  </aside>
+  <main>
+        <div class="product">
+            <img src="product_1.jpeg" alt="Product 1" >
+            <h3>Lorel Paris Lipstick shades</h3>
+            <p>Description:L'Oréal Paris Lipstick Shades: Rich, vibrant hues for statement lips that last.</p>
+            <p>Price: $50</p>
+        </div>
+        <div class="product">
+            <img src="product_2.jpeg" alt="Product 2">
+            <h3>Sunscreen Stick</h3>
+            <p>Description: Dot & Key Watermelon Sunscreen Stick: Convenient, hydrating SPF protection in a refreshing watermelon scent..</p>
+            <p>Price: $30</p>
+        </div>
+        <div class="product">
+            <img src="product_3.jpeg" alt="Product 1">
+            <h3>Vitamin C sunScreen</h3>
+            <p>Description: Dot & Key Vitamin C Sunscreen: Powerful sun protection with added vitamin C for radiant, healthy skin.</p>
+            <p>Price: $50</p>
+        </div>
+        <div class="product">
+            <img src="product_5.jpeg" alt="Product 2">
+            <h3>Pond's super light gel</h3>
+            <p>Description: Ponds Super Light Gel: Feather-light hydration that leaves skin feeling fresh and non-greasy.</p>
+            <p>Price: $30</p>
+        </div><div class="product">
+            <img src="product_6.jpeg" alt="Product 1">
+            <h3>Himalaya Face wash</h3>
+            <p>Description:Himalaya Face Wash: Purifying herbal blend for clear, balanced skin.</p>
+            <p>Price: $50</p>
+        </div>
+        <div class="product">
+            <img src="product_4.jpeg" alt="Product 2">
+            <h3>Patanjali Aloevra gel</h3>
+            <p>Description:Patanjali Aloe Vera Gel: Soothing aloe vera gel for natural hydration and skin repair. </p>
+            <p>Price: $30</p>
+        </div><div class="product">
+            <img src="product_7.jpeg" alt="Product 1">
+            <h3>Loreal Mascara</h3>
+            <p>Description:L'Oréal Paris Mascara: Intense volume and length for standout lashes.</p>
+            <p>Price: $50</p>
+        </div>
+        <div class="product">
+            <img src="product_8.jpeg" alt="Product 2">
+            <h3>Lakme Eye liner</h3>
+            <p>Description: Lakme Eye Liner: Precision eyeliner for bold, defined eyes.</p>
+            <p>Price: $30</p>
+        </div>   
+   
+  </main>
+</div>
+<script src="client.js"></script>
+<footer class="footer">
+  <marquee behavior="scroll" direction="left" scrollamount="5">
+    Contact us:+91123456789 | Email-id:fashionhub@gmail.com |@2024 Fashion Hub.All Rights reserved.
+  </marquee>
+</footer>
+</body>
+</html>
